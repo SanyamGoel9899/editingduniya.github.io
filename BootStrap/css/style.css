@@ -1,0 +1,33 @@
+.bg-darkin{
+    background-color: darkslategrey;
+}
+.fullscreen-landing{
+    background: whitesmoke url("../../img/bakgrund.jpg") no-repeat scroll center;
+    height: 100vh;
+    background-size: cover;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+}
+.searched{
+    height: 60x;
+    width: 500px;
+}
+.subscribe-section{
+    background: whitesmoke url("../../img/background.jpg") no-repeat scroll center;
+    background-size: cover;
+}
+.subscribe-overlay{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+@media(max-width: 576px) {
+    .searched{
+        height: 40px;
+        width: 300px;
+    }
+}
